@@ -1,0 +1,37 @@
+header, footer {
+    text-align: center;
+    color: white;
+    padding: 10px 0px 10px 0px;
+}
+
+#restaurantName {
+    font: 100px "Brush Script MT";
+    font-style: oblique;
+}
+
+.headFoot{
+    background-color: #a72920;
+}
+
+ul{
+    list-style: none;
+}
+
+#navi{
+    padding: 5px 0px 5px 0px;
+    background-color: #002149;
+}
+
+.nav-link{
+    color:white;
+}
+
+a:hover{
+    color:black;
+    font-weight: bolder;
+}
+
+.active{
+    color:yellow;
+}
+

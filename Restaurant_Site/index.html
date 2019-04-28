@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Home Page</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/restaurantStyles.css">
+        <style>
+        body{
+            background-color: #f6e9e8;
+        }
+        h3{
+            text-align: center;
+        }
+        p{
+            font-size: 18px;
+        }
+        #carousel-example-generic{
+            padding: 40px 0px 20px 0px;
+        }
+        .carousel-indicators li {
+            background-color: #999;
+            background-color: rgba(70,70,70,.25);
+        }
+        .carousel-indicators .active {
+            background-color: #444;
+        }
+        .carousel-caption{
+            font-weight: bold;
+        }
+        .jumbotron{
+            background-color: #e4bebc;
+        }
+        </style>
+    </head>
+    <body>
+        <!--Header-->
+        <div class="container-fluid headFoot">
+            <div class="row">
+                    <header id="restaurantName">Vinny's</header>
+            </div>
+        </div>
+        <!--Navbar-->
+        <div class="container-fluid" id="navi">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active"><span class="glyphicon glyphicon-home"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact_us.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <noscript>
+            For full functionality of this site it is necessary to enable JavaScript.
+            Here are the <a href="http://www.enable-javascript.com/" target="_blank"> instructions how to enable JavaScript in your web browser</a>.
+        </noscript>
+        <!--Jumbotron-->
+        <div class="jumbotron jumbotron-fluid">
+            <h2 class="display-4" style="padding-left: 100px">BREAKING NEWS: New Location in the water town of Saria!</h2>
+            <p class="lead" style="padding-left: 100px">Now serving with a Drive-Thru, 24/7.</p>
+        </div>
+        <!--Image and Blurb-->
+        <div class="container">
+            <img src="images/brisket.jpg" alt="Brisket Dinner" 
+            style=" display: block; 
+                    margin-right: auto; 
+                    margin-left: auto; 
+                    width: 550px;
+                    padding-top: 20px"/>
+            <h3>Best Restuarant in Town - Triforce News</h3>
+            <p>
+                Come in and enjoy a meal at Hyrule's premier restaurant. 
+                Established in 1986, our goal was always to provide a fantastic
+                culinary experience. Here at Vinny's, we aim to provide you with
+                the best food Hyrule has to offer. You'll feel rejuvanated as if 
+                finding a fairy randomly in the overworld, or deciding to rest 
+                inside the house of a hospitble stranger in the towns you've
+                never been to. Dine here and we'll get you ready for your next 
+                adventure!
+            </p>
+        </div>
+        <!--Carousel-->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000">
+        <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+        <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div align="center" class="item active">
+                    <img src="images/zelda.png" width="570px" alt="We're opening a new location!">
+                    <div class="carousel-caption">
+                        We're opening a new location! And it's not underneath a bush!
+                    </div>
+                </div>
+                <div align="center" class="item">
+                    <img src="images/zeldaCooking.png" alt="We're rolling out our seasonal menu, with special options for this season.">
+                    <div class="carousel-caption">
+                        We're rolling out our seasonal menu, with special options for this season.
+                    </div>
+                </div>
+                <div align="center" class="item">
+                    <img src="images/beer.png" width="480px" alt="The Drink of the Month is SG Special Brew.">
+                    <div class="carousel-caption">
+                        The Drink of the Month is SG Special Brew.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid headFoot">
+            <div class="row">
+                <footer>
+                    <div>
+                        3 Eye Rock, Hyrule, MN 55014 <br />
+                        +1 (952)-999-0498
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            $('.carousel').carousel({
+                interval: 3000
+            })
+        </script>
+    </body>
+</html>
